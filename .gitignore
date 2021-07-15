@@ -11,3 +11,13 @@ web-build/
 
 # macOS
 .DS_Store
+
+# acrescentadas
+.expo-shared/
+.vscode/
+assets/
+
+app.json
+babel.config.js
+tsconfig.json
+yarn.lock
