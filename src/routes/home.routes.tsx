@@ -29,7 +29,7 @@ export default function HomeRoute() {
         options={{
           drawerLabel: "Tarefas",
           drawerIcon: () => (
-            <MaterialCommunityIcons name="dog" size={24} color={colors.white} />
+            <MaterialCommunityIcons name="camera" size={24} color={colors.white} />
           ),
         }}
       />
