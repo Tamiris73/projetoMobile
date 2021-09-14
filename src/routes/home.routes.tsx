@@ -13,14 +13,14 @@ export default function HomeRoute() {
     <Drawer.Navigator
       screenOptions={{
         headerShown: true,
-        headerStyle: { backgroundColor: colors.gray },
+        headerStyle: { backgroundColor: colors.green },
         headerTintColor: colors.white,
         headerTitle: () => <Text style={styles.title}>Tarefas</Text>,
         drawerStyle: {
-          backgroundColor: colors.gray,
+          backgroundColor: colors.green,
         },
-        drawerInactiveTintColor: colors.white,
-        drawerActiveTintColor: colors.white,
+        drawerInactiveTintColor: colors.gray,
+        drawerActiveTintColor: colors.gray,
       }}
     >
       <Drawer.Screen

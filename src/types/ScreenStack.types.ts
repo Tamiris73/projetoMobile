@@ -18,6 +18,8 @@ export type TarefaStackParamList = {
   Home: undefined
   Tarefa: TarefaProps
   tarefa: {
+    title: string
+    image: ImageSourcePropType
     descricao: string
     data: string
   }[]
