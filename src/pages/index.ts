@@ -1,2 +1,6 @@
 export { default as Login } from './Login'
 export { default as Cadastrar } from './Cadastrar'
+export { default as Home } from './Home'
+export { default as Tarefa } from './Tarefa'
+export { default as NovaTarefa } from './NovaTarefa'
+export { default as Camera } from './Camera'

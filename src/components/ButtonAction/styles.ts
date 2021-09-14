@@ -7,7 +7,7 @@ const colorVariations = {
     background-color: ${colors.green};
   `,
   remove: css`
-    background-color: ${colors.gray};
+    background-color: ${colors.black};
   `
 }
 

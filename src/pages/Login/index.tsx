@@ -7,9 +7,9 @@ import {
   TextInput,
   Title,
   Form,
-} from "../styles/Login";
-import { Button, ButtonText } from "../components";
-import { HeaderProps } from "../interfaces/Header.interface";
+} from "../../styles/Login";
+import { Button, ButtonText } from "../../components";
+import { HeaderProps } from "../../interfaces/Header.interface";
 
 export default function Login() {
   const navigation = useNavigation();

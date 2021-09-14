@@ -7,8 +7,8 @@ import {
   TextInput,
   Title,
   Form,
-} from "../styles/Login";
-import { Button, ButtonText } from "../components";
+} from "../../styles/Login";
+import { Button, ButtonText } from "../../components";
 
 export default function Cadastrar() {
   const navigation = useNavigation();
