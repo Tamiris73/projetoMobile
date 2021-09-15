@@ -11,13 +11,13 @@ export default function Tarefa({ navigation }: TarefaTypes) {
   const route = useRoute();
   const data = route.params as TarefaProps;
   function handleListaTarefa() {
-    navigation.navigate("Tarefa", { ...data});
+    navigation.navigate("tarefa", { ...data});
   }
   function ListaEdit(item: ListaParamProps) {
-    navigation.navigate("Tarefa", { ...data, ...item });
+    navigation.navigate("tarefa", { ...data, ...item });
   }
   function ListaRemove(item: ListaParamProps) {
-    console.log("Tarefa", { ...data, ...item });
+    console.log("tarefa", { ...data, ...item });
   }
   function voltar() {
     navigation.navigate("Home");

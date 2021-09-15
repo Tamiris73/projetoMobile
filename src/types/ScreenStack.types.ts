@@ -13,16 +13,18 @@ export type LoginTypes = {
   navigation: LoginScreenNavigationProp
 }
 
-// Animal Stack
+// Tarefa Stack
 export type TarefaStackParamList = {
   Home: undefined
-  Tarefa: TarefaProps
-  tarefa: {
+  tarefa: TarefaProps
+  Tarefa: {
     title: string
     image: ImageSourcePropType
-    descricao: string
-    data: string
-  }[]
+    tarefas?: {
+      descricao: string
+      data: string
+    }[]
+  }
 }
 type TarefaScreenNavigationProp = StackNavigationProp<TarefaStackParamList>
 export type TarefaTypes = {
