@@ -18,7 +18,7 @@ export default function Cadastrar() {
   return (
     <Container>
       <Form>
-        <Title>Your Plans</Title>
+        <Title>Your Planning</Title>
         <FormRow>
           <Label>Nome</Label>
           <TextInput placeholder="nome"></TextInput>
