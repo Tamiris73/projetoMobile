@@ -4,7 +4,7 @@ import { createDrawerNavigator } from "@react-navigation/drawer";
 import TarefaStack from "./tarefa.routes";
 import { MaterialCommunityIcons } from "@expo/vector-icons";
 import colors from "../styles/colors";
-import { Camera } from "../pages";
+import { Camera, Sair } from "../pages";
 
 const Drawer = createDrawerNavigator();
 
@@ -34,6 +34,7 @@ export default function HomeRoute() {
         }}
       />
       <Drawer.Screen name="Camera" component={Camera} />
+      <Drawer.Screen name="Sair" component={Sair} />
     </Drawer.Navigator>
   );
 }

@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { FlatList, StyleSheet, SafeAreaView, View} from "react-native";
 //import { useNavigation } from "@react-navigation/core";
 import { Header, ButtonHome } from "../../components";
-import data from "../../services/data";
+import data from "../../services/data_antigo";
 import { TarefaProps } from "../../interfaces/Tarefa.interface";
 import { TarefaTypes } from "../../types/ScreenStack.types";
 
